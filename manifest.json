@@ -1,0 +1,13 @@
+{
+	"name": "LinkedIn Profile Scraper",
+	"description": "Scrape LinkedIn Profile and Export as JSON!",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["storage", "activeTab", "scripting"]
+}
